@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: My Personal Website
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Hi, my name is Mikael. This is my website where I post personal projects I'm working on. 
