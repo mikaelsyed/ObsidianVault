@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\quartz",
+    "\\quartz\\components",
+    "\\quartz\\i18n\\locales",
+    "\\quartz\\util"
   ],
-  "SelectedNode": "\\quartz.config.ts",
+  "SelectedNode": "\\quartz\\components\\Footer.tsx",
   "PreviewInSolutionExplorer": false
 }
