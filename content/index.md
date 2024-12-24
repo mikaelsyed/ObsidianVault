@@ -7,11 +7,24 @@ I’m currently in my fourth year at the University of Toronto, pursuing a doubl
 My projects primarily involve tools like ArcGIS, RStudio, and Python/ArcPy. Right now, I’m working on a research project with the University of Toronto, focusing on analyzing the geology of Erindale Park in Mississauga using GIS data and field methods. I’m passionate about geological and environmental surveying and aim to continue exploring these fields through statistical analysis and three-dimensional mapping techniques.
 ### Expertise
 #### Programming Languages
-![[Pasted image 20241223121010.png|50]]![[Pasted image 20241223121217.png|50]]![[Pasted image 20241223121044.png|50]]![[Pasted image 20241223121105.png|50]]![[Pasted image 20241223121234.png|50]]![[Pasted image 20241223121706.png|50]]
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/java/java-plain.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/javascript/javascript-plain.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/html5/html5-plain.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/css3/css3-plain.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/python/python-plain.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/r/r-original.svg" alt="c" width="60" height="60" />   
+</p>
 
 #### Software, Frameworks, Systems
-![[Pasted image 20241223120824.png|50]]![[Pasted image 20241223121537.png|50]]![[Pasted image 20241223121557.png|50]]![[Pasted image 20241223121627.png|50]]![[Pasted image 20241223121654.png|50]]![[Pasted image 20241223121727.png|50]]
-
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/linux/linux-original.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/git/git-original.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/github/github-original.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/visualstudio/visualstudio-original.svg" alt="c" width="60" height="60" /> 
+  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rstudio/rstudio-original.svg" alt="c" width="60" height="60" /> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/ArcGIS_logo.png/600px-ArcGIS_logo.png" alt="c" width="60" height="60" />   
+</p>
 
 
 
