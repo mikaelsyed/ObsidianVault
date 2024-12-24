@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\content",
     "\\quartz",
     "\\quartz\\components",
-    "\\quartz\\i18n\\locales",
     "\\quartz\\util"
   ],
-  "SelectedNode": "\\quartz\\components\\Footer.tsx",
+  "SelectedNode": "\\docs",
   "PreviewInSolutionExplorer": false
 }
