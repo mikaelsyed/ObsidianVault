@@ -1,14 +1,10 @@
 <b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">The University of Toronto Mississauga Esports Club offers non-athletic students an outlet for their competitive energy.
-</b>
-
+</b><br>
 <b style="color: #689d6a; font-size: 18px; font-family: 'Schibsted Grotesk', sans-serif;">Sports
-</b>
-
-`Mikael Syed`
-
-`October 3, 2022`
-
-[Full Article](https://themedium.ca/it-can-be-as-professional-or-as-grassroots-as-you-want-a-perspective-on-esports/)
+</b><br>
+`Mikael Syed`<br>
+`October 3, 2022`<br>
+[Full Article](https://themedium.ca/it-can-be-as-professional-or-as-grassroots-as-you-want-a-perspective-on-esports/)<br><br>
 
 Esports, an abbreviation for electronic sports, are organized competitions based on multi-player video games. The first recorded [instance](https://highscoreesports.com/2019/07/10/spacewar-and-the-birth-of-esports/) of esports was in 1972 at Stanford University where students competed against one another in a videogame called _Spacewar_ (1962).
 
