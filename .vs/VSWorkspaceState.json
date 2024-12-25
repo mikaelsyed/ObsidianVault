@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
     "\\quartz",
-    "\\quartz\\components",
-    "\\quartz\\util"
+    "\\quartz\\components"
   ],
-  "SelectedNode": "\\docs",
+  "SelectedNode": "\\quartz\\components\\Darkmode.tsx",
   "PreviewInSolutionExplorer": false
 }
