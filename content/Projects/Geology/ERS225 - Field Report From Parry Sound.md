@@ -171,42 +171,14 @@ https://turnstone.ca/2143peg.htm<br>
 ![[ProtolithTableThree.png]]<br><br>
 <b style="color: #458592; font-size: 16px; font-family: 'Schibsted Grotesk', sans-serif;">Mineral Decision Table
 </b>
-<table>  
-  <tr>  
-    <th>Mineral</th>  
-    <th>Properties</th>  
 
-  </tr>  
-  <tr>  
-    <td>Quartz</td>  
-    <td>Translucent Grey, Foggy White, No Cleavage (Fractures), Hardness > 7</td>  
-  </tr> 
-    <tr>  
-    <td>Plagioclase</td>  
-    <td>Cloudy, White Colour, Hard, 2 Cleavages @ 90 degrees</td>  
-  </tr>  
-    <tr>  
-    <td>Amphibole</td>  
-    <td>Black Colour, 60/120-degree cleavage, Very Hard</td>  
-  </tr>  
-    <tr>  
-    <td>Biotite</td>  
-    <td>Black Colour, Basal Cleavage, Soft less than 3</td>  
-  </tr>  
-    <tr>  
-    <td>Muscovite</td>  
-    <td>Shiny luster, Soft, White Colour</td>  
-  </tr>  
-    <tr>  
-    <td>Alkali Feldspar</td>  
-    <td>Pink Colour, Opaque. 2 Cleavages @ 90 degrees</td>  
-  </tr>  
-    <tr>  
-    <td>Pyroxene</td>  
-    <td>Dark green to black colour, 90 degree cleavage</td>  
-  </tr>
-      <tr>  
-    <td>Garnet</td>  
-    <td>Red Color, No Cleavage, Hardness > 7</td>  
-  </tr>   
-</table>
+| Mineral         | Properties                                                           |
+| --------------- | -------------------------------------------------------------------- |
+| Quartz          | Translucent Grey, Foggy White, No Cleavage (Fractures), Hardness > 7 |
+| Plagioclase     | Cloudy, White Colour, Hard, 2 Cleavages @ 90 degrees                 |
+| Amphibole       | Black Colour, 60/120-degree cleavage, Very Hard                      |
+| Biotite         | Black Colour, Basal Cleavage, Soft < 3                               |
+| Muscovite       | Shiny luster, Soft, White Colour                                     |
+| Alkali Feldspar | Pink Colour, Opaque. 2 Cleavages @ 90 degrees                        |
+| Pyroxene        | Dark green to black colour, 90 degree cleavage                       |
+| Garnet          | Red Color, No Cleavage, Hardness > 7                                 |
