@@ -48,6 +48,7 @@ By visual inspection alone, it is clear that the rate of urbanization in the Tor
 
 We believe that the rate of growth, while fast, could be slowed by enabling a greater amount of varied residential arrangements outside of what is called type “R1” in Canadian urban planning, that is, single family homes. The rate of growth may be slowed by a greater development in denser housing arrangements that cities nationwide are simply failing to incorporate into their strategies. However, it remains at the hands of current urban planners to decide if the Greenbelt is worth preserving or if urban sprawl is worth having.
 
+
 <br>
 <b style="color: #689d6a; font-size: 18px; font-family: 'Schibsted Grotesk', sans-serif;">References
 </b><br>
