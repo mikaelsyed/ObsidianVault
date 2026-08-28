@@ -8,16 +8,19 @@ title: My Personal Website
     <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400&display=swap" rel="stylesheet">
 </head>
 
-<b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">Welcome!
+<b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">Welcome
 </b>
 
-Hi, I’m Mikael! Welcome to my website, where I share my personal projects, notes, articles, and more.
+Hello! I'm Mikael and this is where I share my personal projects, notes, articles, and more.
 
-I’m currently in my fourth year at the University of Toronto, pursuing a double major in Environmental Science and Geographical Information Systems (GIS).
+I graduated from the University of Toronto, completing a double major in Environmental Science and Geographical Information Systems (GIS).
 
-My projects primarily involve tools like ArcGIS, RStudio, and Python/ArcPy. Right now, I’m working on a research project with the University of Toronto, focusing on analyzing the geology of Erindale Park in Mississauga using GIS data and field methods. I’m passionate about geological and environmental surveying and aim to continue exploring these fields through statistical analysis and three-dimensional mapping techniques.
+My projects primarily involve tools like ArcGIS, R, Python, and C#. 
+
+As of now, I work as a Hydro Analyst; where I am actively supervising a team of analysts in the production of hydrographic, vector datasets. 
+
+I’m interested in geological and environmental surveying and aim to further explore these fields through statistical analysis and three-dimensional mapping techniques.
 <br><br>
-
 <b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">Expertise
 </b>
 
@@ -41,7 +44,7 @@ My projects primarily involve tools like ArcGIS, RStudio, and Python/ArcPy. Righ
   <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/github/github-original.svg" alt="c" width="60" height="60" /> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/visualstudio/visualstudio-original.svg" alt="c" width="60" height="60" /> 
   <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rstudio/rstudio-original.svg" alt="c" width="60" height="60" /> 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/ArcGIS_logo.png/600px-ArcGIS_logo.png" alt="c" width="60" height="60" />   
+  <img src="https://gis.umich.edu/cdn/119/resources/images/widget_3157/1611175349488.png" alt="c" width="60" height="60" />   
 </p>
 
 <br><br>
