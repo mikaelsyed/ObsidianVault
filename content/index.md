@@ -1,69 +1,49 @@
 ---
 title: My Personal Website
 ---
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400&display=swap" rel="stylesheet">
-</head>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400&display=swap" rel="stylesheet">
-</head>
+<p class="home-subtitle">GIS · environmental science · projects, notes & writing</p>
 
-<b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">Welcome
-</b>
+<div class="home-divider">✦ ✦ ✦</div>
 
-Hello! I'm Mikael and this is where I share my personal projects, notes, articles, and more.
+<p class="home-welcome">Welcome!</p>
 
-I graduated from the University of Toronto, completing a double major in Environmental Science and Geographical Information Systems (GIS).
+Hello! I'm Mikael, and this is where I share my personal projects, notes, articles, and more.
 
-My projects primarily involve tools like ArcGIS, R, Python, and C#. 
+I graduated from the University of Toronto, completing a double major in **Environmental Science** and **Geospatial Data Science**. My projects primarily involve tools like ArcGIS, R, Python, and C#.
 
-As of now, I work as a Hydro Analyst; where I am actively supervising a team of analysts in the production of hydrographic, vector datasets. 
+As of now, I work as a **Hydro Analyst**, where I supervise a team of analysts in the production of hydrographic vector datasets.
 
-I’m interested in geological and environmental surveying and aim to further explore these fields through statistical analysis and three-dimensional mapping techniques.
-<br><br>
-<b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">Expertise
-</b>
+I'm interested in geological and environmental surveying, and I aim to explore these fields further through statistical analysis and three-dimensional mapping techniques.
 
-<b style="color: #689d6a; font-size: 18px; font-family: 'Schibsted Grotesk', sans-serif;">Programming Languages
-</b>
+Here are some places you may want to visit:
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/java/java-plain.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/javascript/javascript-plain.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/html5/html5-plain.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/css3/css3-plain.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/python/python-plain.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/r/r-original.svg" alt="c" width="60" height="60" />   
-</p>
+- **[Projects](Projects/)**: GIS, geology, and biology work, like [[NDVI as a Spectral Analysis of Urbanization|mapping urbanization with NDVI]] and a [[ERS225 - Field Report From Parry Sound|field report from Parry Sound]].
+- **[Articles & Posts](Articles;-Posts/)**: pieces I've written on Medium, from [[Scholars Strike Canada, A Three-Day Protest Against Policing & Carcerality|Scholars Strike Canada]] to [[It Can Be As Professional Or As Grassroots As You Want, A Perspective On E-Sports|e-sports]].
 
-<b style="color: #689d6a; font-size: 18px; font-family: 'Schibsted Grotesk', sans-serif;">Software, Frameworks, Systems
-</b>
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/linux/linux-original.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/git/git-original.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/github/github-original.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/visualstudio/visualstudio-original.svg" alt="c" width="60" height="60" /> 
-  <img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rstudio/rstudio-original.svg" alt="c" width="60" height="60" /> 
-  <img src="https://gis.umich.edu/cdn/119/resources/images/widget_3157/1611175349488.png" alt="c" width="60" height="60" />   
-</p>
+<p class="home-signoff">– mikael :)</p>
 
-<br><br>
+<div class="home-divider">✦ ✦ ✦</div>
 
+## Expertise
 
+### Programming Languages
 
+<div class="skills">
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/python/python-plain.svg" alt="" />Python</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/r/r-original.svg" alt="" />R</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/java/java-plain.svg" alt="" />Java</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/javascript/javascript-plain.svg" alt="" />JavaScript</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/html5/html5-plain.svg" alt="" />HTML</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/css3/css3-plain.svg" alt="" />CSS</span>
+</div>
 
+### Software, Frameworks & Systems
 
-<b style="color: #cc241d; font-size: 26.5px; font-family: 'Schibsted Grotesk', sans-serif;">SAMPLE
-</b>
-
-<b style="color: #98971a; font-size: 20px; font-family: 'Schibsted Grotesk', sans-serif;">SAMPLE
-</b>
-
-<b style="color: #689d6a; font-size: 18px; font-family: 'Schibsted Grotesk', sans-serif;">SAMPLE
-</b>
-
-<b style="color: #458592; font-size: 16px; font-family: 'Schibsted Grotesk', sans-serif;">SAMPLE
-</b>
-
-<b style="color: #b16286; font-size: 14.5px; font-family: 'Schibsted Grotesk', sans-serif;">SAMPLE
-</b>
+<div class="skills">
+  <span class="skill"><span class="skill-emoji">🗺️</span>ArcGIS</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/rstudio/rstudio-original.svg" alt="" />RStudio</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/linux/linux-original.svg" alt="" />Linux</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/git/git-original.svg" alt="" />Git</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/github/github-original.svg" alt="" class="invert-dark" />GitHub</span>
+  <span class="skill"><img src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/visualstudio/visualstudio-original.svg" alt="" />Visual Studio</span>
+</div>

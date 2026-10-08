@@ -21,6 +21,9 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import GifComponent from "./GifComponent"
+import ThemeAndSocials from "./ThemeAndSocials"
+import HomeOnly from "./HomeOnly"
+import HomeBanner from "./HomeBanner"
 
 export {
   ArticleTitle,
@@ -46,4 +49,7 @@ export {
   Breadcrumbs,
   Comments,
   GifComponent,
+  ThemeAndSocials,
+  HomeOnly,
+  HomeBanner,
 }

@@ -1,3 +1,131 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Every title, heading and page/folder name uses the header font (Inter Tight)
+.page-title,
+.article-title,
+.explorer .folder-title,
+.recent-notes h3,
+.graph h3,
+.backlinks h3,
+.toc h3 {
+  font-family: var(--headerFont);
+}
+
+// ---------- Homepage ----------
+body[data-slug="index"] {
+  .article-title {
+    margin-bottom: 0.25rem;
+  }
+
+  .home-subtitle {
+    margin: 0;
+    font-family: var(--headerFont);
+    font-style: italic;
+    color: var(--gray);
+  }
+
+  .home-divider {
+    margin: 1.75rem 0;
+    text-align: center;
+    letter-spacing: 0.6em;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    user-select: none;
+  }
+
+  .home-welcome {
+    margin: 0 0 0.5rem;
+    font-family: var(--headerFont);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.9rem;
+    line-height: 1;
+    color: var(--dark);
+  }
+
+  .home-signoff {
+    margin-top: 1.5rem;
+    font-family: var(--headerFont);
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: var(--dark);
+  }
+
+  article ul > li {
+    margin: 0.4rem 0;
+  }
+
+  // File dates come from the checkout, not when notes were written, so hide them
+  .recent-notes {
+    .meta {
+      display: none;
+    }
+
+    ul.recent-ul > li {
+      margin: 0.6rem 0;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.35;
+    }
+  }
+
+  // Section headings, in the gruvbox colours used before
+  article h2 {
+    color: #98971a;
+  }
+
+  article h3 {
+    color: #689d6a;
+    font-size: 1.05rem;
+  }
+}
+
+// Skill chips
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.75rem 0 1.5rem;
+
+  .skill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.8rem 0.35rem 0.5rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 999px;
+    font-size: 0.95rem;
+    transition:
+      border-color 0.15s ease,
+      transform 0.15s ease;
+
+    &:hover {
+      border-color: var(--dark);
+      transform: translateY(-1px);
+    }
+
+    img {
+      width: 22px;
+      height: 22px;
+      margin: 0;
+      border-radius: 0;
+    }
+
+    .skill-emoji {
+      width: 22px;
+      text-align: center;
+      font-size: 1.1rem;
+      line-height: 1;
+    }
+  }
+}
+
+:root[saved-theme="dark"] .skills img.invert-dark {
+  filter: invert(1);
+}

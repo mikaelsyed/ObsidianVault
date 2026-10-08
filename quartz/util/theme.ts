@@ -34,7 +34,8 @@ const DEFAULT_MONO = "ui-monospace, SFMono-Regular, SF Mono, Menlo, monospace"
 
 export function googleFontHref(theme: Theme) {
   const { code, header, body } = theme.typography
-  return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;700&family=${body}:ital,wght@0,400;0,600;1,400;1,600&display=swap`
+  // Inter Tight has italics; Geist and Geist Mono are upright only, so they get weight ranges alone
+  return `https://fonts.googleapis.com/css2?family=${code}:wght@400..700&family=${header}:ital,wght@0,300..700;1,300..700&family=${body}:wght@300..700&display=swap`
 }
 
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
