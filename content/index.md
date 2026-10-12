@@ -17,7 +17,7 @@ I'm interested in geological and environmental surveying, and I aim to explore t
 
 Here are some places you may want to visit:
 
-- **[Projects](Projects/)**: GIS, geology, and biology work, like [[NDVI as a Spectral Analysis of Urbanization|mapping urbanization with NDVI]] and a [[ERS225 - Field Report From Parry Sound|field report from Parry Sound]].
+- **[Projects](Projects/)**: spatial analysis like [[Ontario Wildfire Analysis|47 years of Ontario wildfires]] and [[NDVI as a Spectral Analysis of Urbanization|mapping urbanization with NDVI]], modelling with [[Analytic Hierarchy Process for Flood Analysis|AHP for flood analysis]], and [[Polyline QC Toolset|tools I've built]] for ArcGIS Pro.
 - **[Articles & Posts](Articles;-Posts/)**: pieces I've written on Medium, from [[Scholars Strike Canada, A Three-Day Protest Against Policing & Carcerality|Scholars Strike Canada]] to [[It Can Be As Professional Or As Grassroots As You Want, A Perspective On E-Sports|e-sports]].
 
 <p class="home-signoff">– mikael :)</p>

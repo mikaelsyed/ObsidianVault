@@ -25,9 +25,13 @@ const HomeBanner: QuartzComponent = ({ fileData }: QuartzComponentProps) => {
         )),
       )}
       <span class="banner-caption">{banners[0].label}</span>
-      <button class="arcade-button" type="button" aria-label="Switch banner" title="Switch banner">
-        <span class="arcade-cap"></span>
-      </button>
+      <button
+        class="arcade-button"
+        type="button"
+        aria-label="Switch banner"
+        title="Switch banner"
+        style={`--arcade-up: url(${base}/static/banners/arcade-up.png); --arcade-down: url(${base}/static/banners/arcade-down.png)`}
+      ></button>
     </div>
   )
 }
@@ -106,89 +110,41 @@ HomeBanner.css = `
 }
 
 /* ---------- Arcade button ---------- */
-/* Glossy red bezel > dark recess > domed red plunger that sinks when pressed */
+/* Two photos of the same button: raised (up) and pushed in (down) */
 .arcade-button {
   position: absolute;
-  right: 14px;
-  bottom: 12px;
-  width: 56px;
-  height: 56px;
+  right: 12px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
   padding: 0;
-  border: 1px solid #5a0806;
+  border: none;
   border-radius: 50%;
   cursor: pointer;
-  background:
-    radial-gradient(circle at 50% 50%, transparent 58%, rgba(0, 0, 0, 0.25) 72%, transparent 74%),
-    radial-gradient(circle at 35% 25%, #d0302a 0%, #a3140f 35%, #7e0a07 70%, #4a0302 100%);
-  box-shadow:
-    0 3px 6px rgba(0, 0, 0, 0.55),
-    inset 0 2px 1px rgba(255, 170, 160, 0.6),
-    inset 0 -3px 4px rgba(60, 0, 0, 0.45);
+  background: var(--arcade-up) center / contain no-repeat;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.55));
+  transition: transform 0.06s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Gloss arc along the top-left of the bezel */
+/* Preload the pressed image so the first press doesn't flicker */
 .arcade-button::after {
   content: "";
   position: absolute;
-  inset: 2px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 18%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.15) 18%, rgba(255, 255, 255, 0) 34%);
-  pointer-events: none;
+  width: 0;
+  height: 0;
+  background: var(--arcade-down);
 }
 
-/* Dark recess the plunger sits in */
-.arcade-button::before {
-  content: "";
-  position: absolute;
-  inset: 7px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 50% 60%, #4a0605 0%, #250202 100%);
-  box-shadow:
-    inset 0 2px 4px rgba(0, 0, 0, 0.85),
-    0 1px 0 rgba(255, 150, 140, 0.35);
+.arcade-button:hover {
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.55)) brightness(1.06);
 }
 
-.arcade-cap {
-  position: absolute;
-  inset: 8px;
-  z-index: 1;
-  border-radius: 50%;
-  background:
-    /* top gloss and the soft horizontal sheen band across the lower half */
-    linear-gradient(180deg,
-      rgba(255, 255, 255, 0.55) 0%,
-      rgba(255, 255, 255, 0.08) 34%,
-      rgba(255, 255, 255, 0) 50%,
-      rgba(255, 255, 255, 0.10) 60%,
-      rgba(255, 255, 255, 0.03) 80%,
-      rgba(255, 255, 255, 0) 100%),
-    radial-gradient(ellipse 28% 14% at 40% 16%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 100%),
-    radial-gradient(circle at 50% 38%, #c41d17 0%, #9c100b 50%, #650604 100%);
-  box-shadow:
-    0 0 0 1.5px #c9332c,
-    0 3px 3px rgba(0, 0, 0, 0.55),
-    inset 0 -2px 3px rgba(70, 0, 0, 0.35);
-  transform: scale(1);
-  transition:
-    transform 0.07s ease,
-    box-shadow 0.07s ease,
-    filter 0.07s ease;
-}
-
-.arcade-button:hover .arcade-cap {
-  filter: brightness(1.06);
-}
-
-/* Pressed: plunger sinks into the recess, darker, with a shadowed rim */
-.arcade-button:active .arcade-cap,
-.arcade-button.pressed .arcade-cap {
-  transform: scale(0.9);
-  filter: brightness(0.82);
-  box-shadow:
-    0 0 0 1.5px #7a0b07,
-    0 0 0 4px rgba(0, 0, 0, 0.45),
-    inset 0 3px 5px rgba(40, 0, 0, 0.55);
+.arcade-button:active,
+.arcade-button.pressed {
+  background-image: var(--arcade-down);
+  transform: translateY(1px) scale(0.97);
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.6));
 }
 
 .arcade-button:focus-visible {
@@ -197,12 +153,10 @@ HomeBanner.css = `
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .arcade-cap { transition: none; }
+  .arcade-button { transition: none; }
 }
 @media all and (max-width: 600px) {
-  .arcade-button { width: 46px; height: 46px; right: 10px; bottom: 8px; }
-  .arcade-button::before { inset: 6px; }
-  .arcade-cap { inset: 7px; }
+  .arcade-button { width: 34px; height: 34px; right: 8px; bottom: 8px; }
   .banner-caption { font-size: 0.65rem; }
 }
 `
